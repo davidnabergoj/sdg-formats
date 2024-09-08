@@ -2,7 +2,7 @@
   "game_name": "tos2",
   "game_name_long": "Town of Salem 2",
   "game_version": "v1.2.67",
-  "sdm_version": "1.0",
+  "sdm_version": "1.0.0",
   "alignments": {
     "0": "Town Investigative",
     "1": "Town Protective",
@@ -319,121 +319,151 @@
     {
       "id": 0,
       "name": "day_start",
-      "note": ""
+      "note": "Active immediately after the game starts or as soon as the previous night ends. Ends when players arrive at their positions in the town square."
     },
     {
       "id": 1,
-      "name": "day_discussion",
-      "note": ""
+      "name": "discussion",
+      "note": "Active between day_start and trial_voting while no other environment is active."
     },
     {
       "id": 2,
       "name": "day_voting",
-      "note": ""
+      "note": "Active between day_discussion and day_end while no other environment is active. A successful vote means a player has received enough votes to be placed on the stand."
     },
     {
       "id": 3,
-      "name": "day_trial",
-      "note": ""
+      "name": "trial_defense",
+      "note": "Active after a successful vote in day_voting, when an accused player is on the stand. The accused player can defend themselves."
+    },
+    {
+      "id": 3,
+      "name": "trial_voting",
+      "note": "Starts after trial_defense. Discussion is open and players can vote guilty, innocent, or abstain. Ends after the voting timer expires."
     },
     {
       "id": 4,
-      "name": "day_decision",
-      "note": ""
+      "name": "trial_guilty",
+      "note": "Active after trial_voting if the accused player has been found guilty by other players. The accused player can say their last words. Ends when the last words timer expires."
     },
     {
       "id": 5,
-      "name": "day_lynch",
-      "note": ""
+      "name": "lynch",
+      "note": "Active after trial_guilty. The accused player is executed and cannot speak."
     },
     {
       "id": 6,
+      "name": "lynch_role_reveal",
+      "note": "Active after lynch. The executed player's role is revealed, along with their last will. Discussion is open."
+    },
+    {
+      "id": 7,
+      "name": "trial_innocent",
+      "note": "Active after trial_voting if the accused player has been found innocent by other players. Ends when the accused player gets off the stand."
+    },
+    {
+      "id": 8,
       "name": "day_end",
       "note": ""
     },
     {
-      "id": 7,
+      "id": 9,
       "name": "night",
       "note": ""
     },
     {
-      "id": 8,
+      "id": 10,
       "name": "jail",
       "note": ""
     },
     {
-      "id": 9,
-      "name": "show_last_will",
-      "note": ""
-    },
-    {
-      "id": 10,
-      "name": "show_death_note",
-      "note": ""
-    },
-    {
       "id": 11,
-      "name": "hex_bomb",
+      "name": "show_last_will_day_start",
       "note": ""
     },
     {
       "id": 12,
-      "name": "pirate_leaves",
+      "name": "show_death_note_day_start",
       "note": ""
     },
     {
       "id": 13,
-      "name": "doomsayer_leaves",
+      "name": "hex_bomb",
       "note": ""
     },
     {
       "id": 14,
-      "name": "executioner_leaves",
-      "note": ""
-    },
-    {
-      "id": 14,
-      "name": "executioner_torment",
+      "name": "pirate_leaves",
       "note": ""
     },
     {
       "id": 15,
-      "name": "conjurer_bomb",
+      "name": "doomsayer_leaves",
       "note": ""
     },
     {
       "id": 16,
-      "name": "player_death_focus_morning",
+      "name": "executioner_leaves",
       "note": ""
     },
     {
       "id": 17,
-      "name": "player_death_focus_lynch",
+      "name": "executioner_torment",
       "note": ""
     },
     {
       "id": 18,
-      "name": "prosecutor_activate",
+      "name": "vigilante_guilt_torment",
       "note": ""
     },
     {
       "id": 19,
-      "name": "prosecutor_trial",
+      "name": "conjurer_bomb",
       "note": ""
     },
     {
       "id": 20,
-      "name": "mayor_reveal",
+      "name": "player_death_focus_morning",
       "note": ""
     },
     {
       "id": 21,
-      "name": "marshall_tribunal",
+      "name": "player_death_focus_lynch",
       "note": ""
     },
     {
       "id": 22,
+      "name": "prosecutor_activate",
+      "note": ""
+    },
+    {
+      "id": 23,
+      "name": "prosecutor_trial",
+      "note": ""
+    },
+    {
+      "id": 24,
+      "name": "prosecutor_executed",
+      "note": ""
+    },
+    {
+      "id": 25,
+      "name": "mayor_reveal",
+      "note": ""
+    },
+    {
+      "id": 26,
+      "name": "marshall_tribunal",
+      "note": ""
+    },
+    {
+      "id": 27,
       "name": "deputy_shot",
+      "note": ""
+    },
+    {
+      "id": 28,
+      "name": "deputy_executed",
       "note": ""
     }
   ],
