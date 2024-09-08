@@ -1,0 +1,440 @@
+{
+  "game_name": "tos2",
+  "game_name_long": "Town of Salem 2",
+  "game_version": "v1.2.67",
+  "sdm_version": "1.0",
+  "alignments": {
+    "0": "Town Investigative",
+    "1": "Town Protective",
+    "2": "Town Killing",
+    "3": "Town Support",
+    "4": "Town Power",
+    "5": "Coven Power",
+    "6": "Coven Killing",
+    "7": "Coven Deception",
+    "8": "Coven Utility",
+    "9": "Neutral Evil",
+    "10": "Neutral Killing",
+    "11": "Acolytes",
+    "12": "Neutral Special",
+  },
+  "roles": [
+    {
+      "id": 0,
+      "name": "Coroner",
+      "alignment_id": 0
+    },
+    {
+      "id": 1,
+      "name": "Investigator",
+      "alignment_id": 0
+    },
+    {
+      "id": 2,
+      "name": "Lookout",
+      "alignment_id": 0
+    },
+    {
+      "id": 3,
+      "name": "Psychic",
+      "alignment_id": 0
+    },
+    {
+      "id": 4,
+      "name": "Seer",
+      "alignment_id": 0
+    },
+    {
+      "id": 5,
+      "name": "Sheriff",
+      "alignment_id": 0
+    },
+    {
+      "id": 6,
+      "name": "Spy",
+      "alignment_id": 0
+    },
+    {
+      "id": 7,
+      "name": "Tracker",
+      "alignment_id": 0
+    },
+    {
+      "id": 8,
+      "name": "Bodyguard",
+      "alignment_id": 1
+    },
+    {
+      "id": 9,
+      "name": "Cleric",
+      "alignment_id": 1
+    },
+    {
+      "id": 10,
+      "name": "Crusader",
+      "alignment_id": 1
+    },
+    {
+      "id": 11,
+      "name": "Trapper",
+      "alignment_id": 1
+    },
+    {
+      "id": 12,
+      "name": "Deputy",
+      "alignment_id": 2
+    },
+    {
+      "id": 13,
+      "name": "Trickster",
+      "alignment_id": 2
+    },
+    {
+      "id": 14,
+      "name": "Veteran",
+      "alignment_id": 2
+    },
+    {
+      "id": 15,
+      "name": "Vigilante",
+      "alignment_id": 2
+    },
+    {
+      "id": 16,
+      "name": "Admirer",
+      "alignment_id": 3
+    },
+    {
+      "id": 17,
+      "name": "Amnesiac",
+      "alignment_id": 3
+    },
+    {
+      "id": 18,
+      "name": "Retributionist",
+      "alignment_id": 3
+    },
+    {
+      "id": 19,
+      "name": "Socialite",
+      "alignment_id": 3
+    },
+    {
+      "id": 20,
+      "name": "Tavern Keeper",
+      "alignment_id": 3
+    },
+    {
+      "id": 21,
+      "name": "Jailor",
+      "alignment_id": 4
+    },
+    {
+      "id": 22,
+      "name": "Marshall",
+      "alignment_id": 4
+    },
+    {
+      "id": 23,
+      "name": "Mayor",
+      "alignment_id": 4
+    },
+    {
+      "id": 24,
+      "name": "Monarch",
+      "alignment_id": 4
+    },
+    {
+      "id": 25,
+      "name": "Prosecutor",
+      "alignment_id": 4
+    },
+    {
+      "id": 26,
+      "name": "Coven Leader",
+      "alignment_id": 5
+    },
+    {
+      "id": 27,
+      "name": "Hex Master",
+      "alignment_id": 5
+    },
+    {
+      "id": 28,
+      "name": "Witch",
+      "alignment_id": 5
+    },
+    {
+      "id": 29,
+      "name": "Conjurer",
+      "alignment_id": 6
+    },
+    {
+      "id": 30,
+      "name": "Jinx",
+      "alignment_id": 6
+    },
+    {
+      "id": 31,
+      "name": "Ritualist",
+      "alignment_id": 6
+    },
+    {
+      "id": 32,
+      "name": "Dreamweaver",
+      "alignment_id": 7
+    },
+    {
+      "id": 33,
+      "name": "Enchanter",
+      "alignment_id": 7
+    },
+    {
+      "id": 34,
+      "name": "Illusionist",
+      "alignment_id": 7
+    },
+    {
+      "id": 35,
+      "name": "Medusa",
+      "alignment_id": 7
+    },
+    {
+      "id": 36,
+      "name": "Necromancer",
+      "alignment_id": 8
+    },
+    {
+      "id": 37,
+      "name": "Poisoner",
+      "alignment_id": 8
+    },
+    {
+      "id": 38,
+      "name": "Potion Master",
+      "alignment_id": 8
+    },
+    {
+      "id": 39,
+      "name": "Voodoo Master",
+      "alignment_id": 8
+    },
+    {
+      "id": 40,
+      "name": "Wildling",
+      "alignment_id": 8
+    },
+    {
+      "id": 41,
+      "name": "Doomsayer",
+      "alignment_id": 9
+    },
+    {
+      "id": 42,
+      "name": "Executioner",
+      "alignment_id": 9
+    },
+    {
+      "id": 43,
+      "name": "Jester",
+      "alignment_id": 9
+    },
+    {
+      "id": 44,
+      "name": "Pirate",
+      "alignment_id": 9
+    },
+    {
+      "id": 45,
+      "name": "Arsonist",
+      "alignment_id": 10
+    },
+    {
+      "id": 46,
+      "name": "Serial Killer",
+      "alignment_id": 10
+    },
+    {
+      "id": 47,
+      "name": "Shroud",
+      "alignment_id": 10
+    },
+    {
+      "id": 48,
+      "name": "Werewolf",
+      "alignment_id": 10
+    },
+    {
+      "id": 49,
+      "name": "Baker",
+      "alignment_id": 11
+    },
+    {
+      "id": 50,
+      "name": "Berserker",
+      "alignment_id": 11
+    },
+    {
+      "id": 51,
+      "name": "Plaguebearer",
+      "alignment_id": 11
+    },
+    {
+      "id": 52,
+      "name": "Soul Collector",
+      "alignment_id": 11
+    },
+    {
+      "id": 53,
+      "name": "Famine",
+      "alignment_id": 12
+    },
+    {
+      "id": 54,
+      "name": "War",
+      "alignment_id": 12
+    },
+    {
+      "id": 55,
+      "name": "Pestilence",
+      "alignment_id": 12
+    },
+    {
+      "id": 56,
+      "name": "Death",
+      "alignment_id": 12
+    },
+    {
+      "id": 57,
+      "name": "Cursed Soul",
+      "alignment_id": 13
+    },
+    {
+      "id": 58,
+      "name": "Vampire",
+      "alignment_id": 13
+    }
+  ],
+  "environments": [
+    {
+      "id": 0,
+      "name": "day_start",
+      "note": ""
+    },
+    {
+      "id": 1,
+      "name": "day_discussion",
+      "note": ""
+    },
+    {
+      "id": 2,
+      "name": "day_voting",
+      "note": ""
+    },
+    {
+      "id": 3,
+      "name": "day_trial",
+      "note": ""
+    },
+    {
+      "id": 4,
+      "name": "day_decision",
+      "note": ""
+    },
+    {
+      "id": 5,
+      "name": "day_lynch",
+      "note": ""
+    },
+    {
+      "id": 6,
+      "name": "day_end",
+      "note": ""
+    },
+    {
+      "id": 7,
+      "name": "night",
+      "note": ""
+    },
+    {
+      "id": 8,
+      "name": "jail",
+      "note": ""
+    },
+    {
+      "id": 9,
+      "name": "show_last_will",
+      "note": ""
+    },
+    {
+      "id": 10,
+      "name": "show_death_note",
+      "note": ""
+    },
+    {
+      "id": 11,
+      "name": "hex_bomb",
+      "note": ""
+    },
+    {
+      "id": 12,
+      "name": "pirate_leaves",
+      "note": ""
+    },
+    {
+      "id": 13,
+      "name": "doomsayer_leaves",
+      "note": ""
+    },
+    {
+      "id": 14,
+      "name": "executioner_leaves",
+      "note": ""
+    },
+    {
+      "id": 14,
+      "name": "executioner_torment",
+      "note": ""
+    },
+    {
+      "id": 15,
+      "name": "conjurer_bomb",
+      "note": ""
+    },
+    {
+      "id": 16,
+      "name": "player_death_focus_morning",
+      "note": ""
+    },
+    {
+      "id": 17,
+      "name": "player_death_focus_lynch",
+      "note": ""
+    },
+    {
+      "id": 18,
+      "name": "prosecutor_activate",
+      "note": ""
+    },
+    {
+      "id": 19,
+      "name": "prosecutor_trial",
+      "note": ""
+    },
+    {
+      "id": 20,
+      "name": "mayor_reveal",
+      "note": ""
+    },
+    {
+      "id": 21,
+      "name": "marshall_tribunal",
+      "note": ""
+    },
+    {
+      "id": 22,
+      "name": "deputy_shot",
+      "note": ""
+    }
+  ],
+}
